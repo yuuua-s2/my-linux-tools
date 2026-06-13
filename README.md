@@ -9,3 +9,5 @@ alias pco='echo $PATH | tr ":" "/n" | cat -n'
 
 検索するコマンド
 find . -type d -name ".git"
+
+systemctl
