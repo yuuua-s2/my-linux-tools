@@ -6,3 +6,6 @@ PATHの中⾝を1⾏ずつ表⽰します
 alias pco='echo $PATH | tr ":" "/n" | cat -n'
 
 実はここでもOK
+
+検索するコマンド
+find . -type d -name ".git"
