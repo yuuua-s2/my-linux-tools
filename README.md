@@ -1,10 +1,8 @@
 # my-linux-tools
-Linuxの授業で作成した
+Linuxの授業で作成した⾃作コマンド集です。
 ## showpath
-⾃作コマンド集です。
-PATH
-の中⾝を 
-1
-⾏ずつ 表⽰します
+PATHの中⾝を1⾏ずつ表⽰します
 
 alias pco='echo $PATH | tr ":" "/n" | cat -n'
+
+実はここでもOK
